@@ -6,7 +6,7 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        image: mcapitanio/mysql:8
+        image: mcapitanio/mysql:latest
         networks:
             - default
         volumes:
