@@ -1,0 +1,29 @@
+version: "2"
+
+services:
+
+    mysql:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: mcapitanio/mysql:8
+        networks:
+            - default
+        volumes:
+            - mysql_conf:/etc/mysql/conf.d
+            - mysql_data:/var/lib/mysql
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+
+volumes:
+    mysql_conf:
+    mysql_data:
+
+networks:
+    default:
+      external:
+        name: default
+    default:
+        driver: bridge
