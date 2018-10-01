@@ -12,8 +12,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
 networks:
-    parrot:
-      external:
-        name: default
-    parrot:
-        driver: bridge
+  parrot:
+    driver: bridge
