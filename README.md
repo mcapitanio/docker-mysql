@@ -15,7 +15,7 @@ You can also find other images based on different MySql releases, using a differ
     docker pull parrotstream/mysql:[mysql-release]
 
 
-For example, if you want MySql release 5.6 you can pull the image with:
+For example, if you want MySql release 5.5 you can pull the image with:
 
     docker pull parrotstream/mysql:5.5
 
