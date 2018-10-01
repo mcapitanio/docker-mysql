@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: parrotstream/mysql:latest
+    image: parrotstream/mysql:5.6
     networks:
     - parrot
     ports:
