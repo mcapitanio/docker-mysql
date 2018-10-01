@@ -3,7 +3,7 @@ ___
 
 ### Description
 
-This image runs [*MySQL*](https://www.mysql.com).(https://www.cloudera.com/products/open-source/apache-hadoop/key-cdh-components.html) on a Centos 7 Linux distribution.
+This image runs [*MySQL*](https://www.mysql.com).
 
 You can pull the latest image it with:
 
@@ -15,7 +15,7 @@ You can also find other images based on different MySql releases, using a differ
     docker pull parrotstream/mysql:[mysql-release]
 
 
-For example, if you want MySql HBase release 5.6 you can pull the image with:
+For example, if you want MySql release 5.6 you can pull the image with:
 
     docker pull parrotstream/mysql:5.5
 
