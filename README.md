@@ -28,3 +28,4 @@ Run with Docker Compose:
 
 - MySQL 8 ([8](https://github.com/parrotstream/docker-mysql/blob/8/Dockerfile), [latest](https://github.com/mcapitanio/docker-mysql/blob/latest/Dockerfile))
 - MySQL 5.5 ([5.5](https://github.com/parrotstream/docker-mysql/blob/5.5/Dockerfile))
+
