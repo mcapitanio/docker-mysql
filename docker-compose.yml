@@ -1,29 +1,19 @@
-version: "2"
-
+version: "3"
 services:
-
-    mysql:
-        build:
-            context: .
-            dockerfile: Dockerfile
-        image: mcapitanio/mysql:latest
-        networks:
-            - default
-        volumes:
-            - mysql_conf:/etc/mysql/conf.d
-            - mysql_data:/var/lib/mysql
-        ports:
-            - "3306:3306"
-        environment:
-            MYSQL_ROOT_PASSWORD: root
-
-volumes:
-    mysql_conf:
-    mysql_data:
-
+  mysql:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: parrotstream/mysql:5.5
+    networks:
+    - parrot
+    ports:
+    - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
 networks:
-    default:
+    parrot:
       external:
         name: default
-    default:
+    parrot:
         driver: bridge
