@@ -1,3 +1,3 @@
-FROM library/mysql:5.7
+FROM library/mysql:8.0
 
 MAINTAINER Matteo Capitanio <matteo.capitanio@gmail.com>
