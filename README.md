@@ -26,6 +26,6 @@ Run with Docker Compose:
 
 ### Available tags:
 
-- MySQL 8.0 ([8.0](https://github.com/parrotstream/docker-mysql/blob/8.0/Dockerfile), [latest](https://github.com/parrotstream/docker-mysql/blob/latest/Dockerfile))
-- MySQL 5.5 ([5.5](https://github.com/parrotstream/docker-mysql/blob/5.5/Dockerfile))
+- MySQL 8.0 ([8.0](https://github.com/parrot-stream/docker-mysql/blob/8.0/Dockerfile), [latest](https://github.com/parrot-stream/docker-mysql/blob/latest/Dockerfile))
+- MySQL 5.5 ([5.5](https://github.com/parrot-stream/docker-mysql/blob/5.5/Dockerfile))
 
